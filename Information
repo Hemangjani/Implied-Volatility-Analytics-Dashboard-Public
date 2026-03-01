@@ -1,0 +1,42 @@
+Implied Volatility Analytics Dashboard
+Built with Python, Power Query, Streamlit & iVolatility API
+Project Overview
+
+This is a dynamic Implied Volatility (IV) analytics application designed to help traders analyze options volatility behavior, identify trading opportunities, and monitor volatility trends across multiple symbols.
+
+The system automatically fetches raw options data via the iVolatility API, processes it using Python and Power Query, and presents interactive analytics through a professional Streamlit dashboard.
+
+The application is structured for daily end-of-day (EOD) analysis and supports multi-symbol dynamic screening.
+
+Key Features
+1. Real-Time IV Data Integration
+
+Automated data fetching using iVolatility API
+Daily EOD data updates
+Multi-symbol dynamic loading
+Structured CSV-based historical storage
+
+2. Volatility Analytics Engine
+ATM Implied Volatility tracking
+IV term structure analysis
+IV expansion and contraction detection
+Volatility regime identification
+
+3. Screening Capability
+Dynamic symbol selection
+High IV and Low IV opportunity filters
+
+4. Interactive Dashboard 
+Clean, professional interface
+Expandable and interactive charts
+Symbol-wise filtering
+Timeframe selection
+Comparative analytics
+
+
+
+Disclaimer
+
+This application is developed strictly for educational and research purposes.
+It does not provide financial advice and does not guarantee profitability. All trading involves risk, including the potential loss of capital. Implied volatility analytics are statistical tools and should be used alongside proper risk management and independent decision-making.
+The developer assumes no responsibility for financial losses resulting from the use of this application.
